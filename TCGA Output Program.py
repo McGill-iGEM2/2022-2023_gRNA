@@ -4,7 +4,7 @@ import glob
 print("Please input the full path (starting from C:/...) of the directory containing all TSVs (subdirectories within the directory is no issue).")
 directory_path = input("Use format --C:/Users/steph/Dry Lab TCGA Data/-- if Dry Lab TCGA Data is your directory: ")
 all_tsv_files = glob.glob(directory_path + "**/*.tsv", recursive=True)
-percentile = int(input("Please input the desired percentile cutoff for considering genes as \'expressed\': "))
+percentile = float(input("Please input the desired percentile cutoff for considering genes as \'expressed\': "))
 super_df = pd.DataFrame({'gene_id':[], 'gene_name':[]})
 
 def sort_tpms(file_name):
