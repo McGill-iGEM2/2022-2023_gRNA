@@ -1,8 +1,9 @@
 import pandas as pd
 import glob
+import os
 
 print("Please input the full path (starting from C:/...) of the directory containing all TSVs (subdirectories within the directory is no issue).")
-directory_path = input("Use format --C:/Users/steph/Dry Lab TCGA Data/-- if Dry Lab TCGA Data is your directory: ")
+directory_path = input("Use format --C:/Users/steph/Documents/McGill/iGEM/gRNA/Dry Lab TCGA Data/-- if Dry Lab TCGA Data is your directory: ")
 all_tsv_files = glob.glob(directory_path + "**/*.tsv", recursive=True)
 percentile = float(input("Please input the desired percentile cutoff for considering genes as \'expressed\': "))
 super_df = pd.DataFrame({'gene_id':[], 'gene_name':[]})
@@ -48,4 +49,6 @@ final_df['percentile'] = (final_df['expressions'].rank(pct=True))*100
 final_df = final_df.reset_index(drop=True)
 
 print(final_df)
-final_df.to_csv("tcga_cleaned_data.tsv", sep="\t", index=False)
+dir_path = os.path.dirname(os.path.abspath(__file__))
+tsv_path = os.path.join(dir_path, "tcga_cleaned_data.tsv")
+final_df.to_csv(os.path.join(tsv_path), sep="\t", index=False)
