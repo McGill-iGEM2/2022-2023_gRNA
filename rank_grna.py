@@ -42,6 +42,9 @@ for i in range(len(seq)):
             break
         else:
             comp, GC = find_complementary(seq[i:i+32])
-            df.iloc[i] = [i, comp, GC]
+            df.loc[i] = [i + 1, comp, GC]
 
-df.to_xlsx("data/gRNA.xlsx")
+df.sort_values(by='GC Content', ascending=False, inplace=True)
+
+# Save to Excel file
+df.to_excel("data/gRNA.xlsx", index=False)
