@@ -38,10 +38,10 @@ def find_complementary(strand):
 df = pd.DataFrame(columns=["gRNA", "Sequence", "GC Content"])
 
 for i in range(len(seq)):
-        if i + 32 > len(seq):
+        if i + 31 > len(seq):
             break
         else:
-            comp, GC = find_complementary(seq[i:i+32])
+            comp, GC = find_complementary(seq[i:i+31])
             df.loc[i] = [i, comp, GC]
 
 df.sort_values(by='GC Content', ascending=False, inplace=True)
