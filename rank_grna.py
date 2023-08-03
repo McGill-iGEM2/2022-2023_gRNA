@@ -42,7 +42,7 @@ for i in range(len(seq)):
             break
         else:
             comp, GC = find_complementary(seq[i:i+32])
-            df.loc[i] = [i + 1, comp, GC]
+            df.loc[i] = [i, comp, GC]
 
 df.sort_values(by='GC Content', ascending=False, inplace=True)
 
