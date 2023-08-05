@@ -2,7 +2,7 @@ import glob
 import os
 import pandas as pd
 
-f = glob.glob("data/*.fsa")[0]
+f = glob.glob("../data/*.fsa")[0]
 
 seq = ""
 
