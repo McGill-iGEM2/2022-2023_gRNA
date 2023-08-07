@@ -1,0 +1,1227 @@
+ mfold version 3.6 by Michael Zuker
+ Enter run type
+     0  Regular run (default)
+     1  Save run
+     2  Continuation run
+  
+ Enter save file name (default fold.sav)
+
+ Input sequence file name  (q to quit)  
+
+ Available sequence(s) in seq.txt-local.seq                       
+
+   1) seq.txt                                           
+
+ Choose sequence by number [default is  1],                     or enter  F  for a new file: 
+
+   Length of retrieved sequence =   3138
+
+
+
+ seq.txt                                                  3138 nucleotides
+
+ Enter start of fragment (default 1)
+ Enter end of fragment (default   3138)
+ Enter asymmetric interior loop of size 3 energy file name
+ (default asint1x2.dat)
+ Enter asymmetric interior loop of size 5 energy file name
+ (default asint2x3.dat)
+ Enter dangle energy file name (default dangle.dat)
+ Enter loop energy file name (default loop.dat)
+ Enter misc. loop energy file name (default miscloop.dat)
+ Enter symmetric interior loop of size 2 energy file
+  name (default sint2.dat)
+ Enter symmetric interior loop of size 4 energy file
+  name (default sint4.dat)
+ Enter symmetric interior loop of size 6 energy file
+  name (default sint6.dat)
+ Enter stack energy file name (default stack.dat)
+ Enter tetraloop energy file name (default tloop.dat)
+ Enter triloop energy file name (default triloop.dat)
+ Enter tstackh energy file name (default tstackh.dat)
+ Enter tstacki energy file name (default tstacki.dat)
+
+          1  Energy Parameter           7  Double Prohibit 
+          2  Single Force               8  Prohibit Range  
+          3  Double Force               9  Maximum distance
+          4  Closed Excision           10  Begin folding   
+          5  Open Excision             11  Show current    
+          6  Single Prohibit           12  Clear current   
+
+ Enter Choice   
+
+            Energy Parameters (10ths or 100ths kcal/mol)
+
+          1 Extra stack energy                        [    0]
+          2 Extra bulge energy                        [    0]
+          3 Extra loop energy (interior)              [    0]
+          4 Extra loop energy (hairpin)               [    0]
+          5 Extra loop energy (multi)                 [  340]
+          6 Multi loop energy/single-stranded base    [    0]
+          7 Maximum size of interior loop             [   30]
+          8 Maximum lopsidedness of an interior loop  [   30]
+          9 Multi loop energy/closing base pair       [   40]
+         10 Helix penalty per non-GC closing pair     [   50]
+         11 GGG hairpin bonus                         [ -220]
+         12 poly-C loop penalty: slope                [   30]
+         13 poly-C loop penalty: intercept            [  160]
+         14 poly-C loop penalty: hairpin of size 3    [  140]
+         15 Intermolecular initiation free energy     [  410]
+         16 GAIL Rule - 1 for version 3 rules only    [    1]
+Enter Parameter to be changed (<return> for main menu)
+Enter new value
+
+            Energy Parameters (10ths or 100ths kcal/mol)
+
+          1 Extra stack energy                        [    0]
+          2 Extra bulge energy                        [    0]
+          3 Extra loop energy (interior)              [    0]
+          4 Extra loop energy (hairpin)               [    0]
+          5 Extra loop energy (multi)                 [  340]
+          6 Multi loop energy/single-stranded base    [    0]
+          7 Maximum size of interior loop             [   30]
+          8 Maximum lopsidedness of an interior loop  [   30]
+          9 Multi loop energy/closing base pair       [   40]
+         10 Helix penalty per non-GC closing pair     [   50]
+         11 GGG hairpin bonus                         [ -220]
+         12 poly-C loop penalty: slope                [   30]
+         13 poly-C loop penalty: intercept            [  160]
+         14 poly-C loop penalty: hairpin of size 3    [  140]
+         15 Intermolecular initiation free energy     [  410]
+         16 GAIL Rule - 1 for version 3 rules only    [    1]
+Enter Parameter to be changed (<return> for main menu)
+Enter new value
+
+            Energy Parameters (10ths or 100ths kcal/mol)
+
+          1 Extra stack energy                        [    0]
+          2 Extra bulge energy                        [    0]
+          3 Extra loop energy (interior)              [    0]
+          4 Extra loop energy (hairpin)               [    0]
+          5 Extra loop energy (multi)                 [  340]
+          6 Multi loop energy/single-stranded base    [    0]
+          7 Maximum size of interior loop             [   30]
+          8 Maximum lopsidedness of an interior loop  [   30]
+          9 Multi loop energy/closing base pair       [   40]
+         10 Helix penalty per non-GC closing pair     [   50]
+         11 GGG hairpin bonus                         [ -220]
+         12 poly-C loop penalty: slope                [   30]
+         13 poly-C loop penalty: intercept            [  160]
+         14 poly-C loop penalty: hairpin of size 3    [  140]
+         15 Intermolecular initiation free energy     [  410]
+         16 GAIL Rule - 1 for version 3 rules only    [    1]
+Enter Parameter to be changed (<return> for main menu)
+
+          1  Energy Parameter           7  Double Prohibit 
+          2  Single Force               8  Prohibit Range  
+          3  Double Force               9  Maximum distance
+          4  Closed Excision           10  Begin folding   
+          5  Open Excision             11  Show current    
+          6  Single Prohibit           12  Clear current   
+
+ Enter Choice   
+ Enter save file name (default fold.sav)
+ Enter helix file name 
+ >
+vmin =  -820.2 Enter energy increment >
+Enter number of levels >
+Removing non-optimal helices of length less than 2
+seq.txt.plot replaced by new file.
+ Enter save file name (default fold.sav)
+ Enter p-num file name 
+ >
+vmin =  -820.2. Enter energy increment >
+    ====>  Output file is seq.txt.h-num
+
+ mfold version 3.6 by Michael Zuker
+ Enter run type
+     0  Regular run (default)
+     1  Save run
+     2  Continuation run
+  
+ Enter run mode
+     0  Sub-optimal plot (default)
+     1  n-best
+     2  Multiple Molecules
+  
+
+ Enter percentage for sort (default 0)  
+
+ Enter number of tracebacks (default 1)  
+
+ Enter window size (default 0)  
+  
+ Enter save file name (default fold.sav)
+ Enter file name for continuation dump(return for terminal)
+  No choices currently defined
+   Energy Parameters
+
+
+             Energy Parameters (10ths kcal/mol)
+
+           1 Extra stack energy                        [    0]
+           2 Extra bulge energy                        [    0]
+           3 Extra loop energy (interior)              [    0]
+           4 Extra loop energy (hairpin)               [    0]
+           5 Extra loop energy (multi)                 [  340]
+           6 Multi loop energy/single-stranded base    [    0]
+           7 Maximum size of interior loop             [   30]
+           8 Maximum lopsidedness of an interior loop  [   30]
+           9 Multi loop energy/closing base pair       [   40]
+          10 Helix penalty per non-GC closing pair     [   50]
+          11 GGG hairpin bonus                         [ -220]
+          12 poly-C loop penalty: slope                [   30]
+          13 poly-C loop penalty: intercept            [  160]
+          14 poly-C loop penalty: hairpin of size 3    [  140]
+          15 Intermolecular initiation free energy     [  410]
+          16 GAIL Rule - 1 for version 3 rules only    [    1]
+
+
+ Listing of energy files? (y/N)
+Do you want printer output? (Y,n) 
+Output to terminal? (Y,n) 
+Enter output file name (default seq_txt.out_______________________________________          )
+Do you want ct file? (y,N) 
+Enter ct file name (default seq_txt.ct _______________________________________          )
+Do you want a detailed ddG table? (y,N) 
+Enter detailed ddG table file name (default seq_txt.det_______________________________________          )
+  
+ More than  90000 basepairs in sort at (   865,   873)
+ End reached at traceback    46
+boxplot_ng, mfold 3.6
+Trying to open seq.txt.plot
+The number of helices is 82806
+Helix total is 82807
+There are 82806 helices in the plot file.
+Postscript file name is seq.txt.ps
+Normal exit from boxplot_ng.
+CurrentFile= seq.txt-temp_1.ct
+CurrentFile= seq.txt-temp_2.ct
+CurrentFile= seq.txt-temp_3.ct
+CurrentFile= seq.txt-temp_4.ct
+CurrentFile= seq.txt-temp_5.ct
+CurrentFile= seq.txt-temp_6.ct
+CurrentFile= seq.txt-temp_7.ct
+CurrentFile= seq.txt-temp_8.ct
+CurrentFile= seq.txt-temp_9.ct
+CurrentFile= seq.txt-temp_10.ct
+CurrentFile= seq.txt-temp_11.ct
+CurrentFile= seq.txt-temp_12.ct
+CurrentFile= seq.txt-temp_13.ct
+CurrentFile= seq.txt-temp_14.ct
+CurrentFile= seq.txt-temp_15.ct
+CurrentFile= seq.txt-temp_16.ct
+CurrentFile= seq.txt-temp_17.ct
+CurrentFile= seq.txt-temp_18.ct
+CurrentFile= seq.txt-temp_19.ct
+CurrentFile= seq.txt-temp_20.ct
+CurrentFile= seq.txt-temp_21.ct
+CurrentFile= seq.txt-temp_22.ct
+CurrentFile= seq.txt-temp_23.ct
+CurrentFile= seq.txt-temp_24.ct
+CurrentFile= seq.txt-temp_25.ct
+CurrentFile= seq.txt-temp_26.ct
+CurrentFile= seq.txt-temp_27.ct
+CurrentFile= seq.txt-temp_28.ct
+CurrentFile= seq.txt-temp_29.ct
+CurrentFile= seq.txt-temp_30.ct
+CurrentFile= seq.txt-temp_31.ct
+CurrentFile= seq.txt-temp_32.ct
+CurrentFile= seq.txt-temp_33.ct
+CurrentFile= seq.txt-temp_34.ct
+CurrentFile= seq.txt-temp_35.ct
+CurrentFile= seq.txt-temp_36.ct
+CurrentFile= seq.txt-temp_37.ct
+CurrentFile= seq.txt-temp_38.ct
+CurrentFile= seq.txt-temp_39.ct
+CurrentFile= seq.txt-temp_40.ct
+CurrentFile= seq.txt-temp_41.ct
+CurrentFile= seq.txt-temp_42.ct
+CurrentFile= seq.txt-temp_43.ct
+CurrentFile= seq.txt-temp_44.ct
+CurrentFile= seq.txt-temp_45.ct
+CurrentFile= seq.txt-temp_46.ct
+Rotation angle: 0.00 degrees
+Input File: seq.txt_1.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_1.ps
+ss file output is seq.txt_1.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_1.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_1.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_1.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_10.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_10.ps
+ss file output is seq.txt_10.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_10.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_10.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_10.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_11.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_11.ps
+ss file output is seq.txt_11.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_11.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_11.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_11.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_12.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_12.ps
+ss file output is seq.txt_12.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_12.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_12.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_12.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_13.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_13.ps
+ss file output is seq.txt_13.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_13.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_13.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_13.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_14.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_14.ps
+ss file output is seq.txt_14.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_14.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_14.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_14.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_15.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_15.ps
+ss file output is seq.txt_15.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_15.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_15.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_15.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_16.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_16.ps
+ss file output is seq.txt_16.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_16.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_16.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_16.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_17.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_17.ps
+ss file output is seq.txt_17.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_17.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_17.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_17.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_18.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_18.ps
+ss file output is seq.txt_18.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_18.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_18.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_18.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_19.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_19.ps
+ss file output is seq.txt_19.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_19.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_19.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_19.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_2.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_2.ps
+ss file output is seq.txt_2.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_2.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_2.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_2.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_20.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_20.ps
+ss file output is seq.txt_20.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_20.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_20.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_20.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_21.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_21.ps
+ss file output is seq.txt_21.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_21.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_21.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_21.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_22.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_22.ps
+ss file output is seq.txt_22.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_22.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_22.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_22.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_23.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_23.ps
+ss file output is seq.txt_23.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_23.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_23.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_23.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_24.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_24.ps
+ss file output is seq.txt_24.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_24.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_24.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_24.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_25.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_25.ps
+ss file output is seq.txt_25.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_25.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_25.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_25.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_26.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_26.ps
+ss file output is seq.txt_26.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_26.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_26.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_26.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_27.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_27.ps
+ss file output is seq.txt_27.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_27.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_27.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_27.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_28.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_28.ps
+ss file output is seq.txt_28.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_28.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_28.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_28.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_29.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_29.ps
+ss file output is seq.txt_29.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_29.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_29.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_29.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_3.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_3.ps
+ss file output is seq.txt_3.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_3.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_3.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_3.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_30.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_30.ps
+ss file output is seq.txt_30.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_30.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_30.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_30.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_31.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_31.ps
+ss file output is seq.txt_31.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_31.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_31.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_31.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_32.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_32.ps
+ss file output is seq.txt_32.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_32.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_32.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_32.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_33.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_33.ps
+ss file output is seq.txt_33.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_33.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_33.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_33.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_34.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_34.ps
+ss file output is seq.txt_34.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_34.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_34.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_34.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_35.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_35.ps
+ss file output is seq.txt_35.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_35.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_35.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_35.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_36.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_36.ps
+ss file output is seq.txt_36.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_36.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_36.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_36.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_37.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_37.ps
+ss file output is seq.txt_37.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_37.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_37.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_37.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_38.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_38.ps
+ss file output is seq.txt_38.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_38.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_38.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_38.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_39.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_39.ps
+ss file output is seq.txt_39.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_39.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_39.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_39.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_4.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_4.ps
+ss file output is seq.txt_4.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_4.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_4.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_4.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_40.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_40.ps
+ss file output is seq.txt_40.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_40.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_40.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_40.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_41.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_41.ps
+ss file output is seq.txt_41.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_41.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_41.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_41.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_42.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_42.ps
+ss file output is seq.txt_42.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_42.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_42.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_42.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_43.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_43.ps
+ss file output is seq.txt_43.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_43.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_43.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_43.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_44.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_44.ps
+ss file output is seq.txt_44.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_44.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_44.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_44.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_45.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_45.ps
+ss file output is seq.txt_45.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_45.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_45.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_45.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_46.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_46.ps
+ss file output is seq.txt_46.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_46.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_46.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_46.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_5.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_5.ps
+ss file output is seq.txt_5.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_5.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_5.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_5.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_6.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_6.ps
+ss file output is seq.txt_6.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_6.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_6.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_6.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_7.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_7.ps
+ss file output is seq.txt_7.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_7.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_7.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_7.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_8.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_8.ps
+ss file output is seq.txt_8.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_8.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Output:  seq.txt_8.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_8.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_9.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_9.ps
+ss file output is seq.txt_9.ss
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_9.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Output:  seq.txt_9.ps
+Normal exit from sir_graph.
+Rotation angle: 0.00 degrees
+Input File: seq.txt_9.ct
+Sequence length: 3138
+Using 356.0 degrees of the circle 
+Rotating -90 degrees to avoid landscape mode
+Structure is rotated -90.00 degrees
+Normal exit from sir_graph.
